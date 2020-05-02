@@ -5,7 +5,7 @@ Wzorzec ten stosuje się, gdy:
 - w klasie nie można z góry ustalić wszystkich klas obiektów, które trzeba stworzyć(istnieje możliwość rozbudowy systemu o dodatkowe klasy),
 - chcemy zachować zasadę Open/Closed Principle(SOLID).
 
-Jeżeli w przyszłości będziemy chceli rozbudować aplikację o kolejne klasy, wówczas wskazane będzie wrócić do wcześniejszych metod i je modyfikować poprzez dodanie kolejnego ifa/case. </br>
+Jeśli w przyszłości będziemy chceli rozbudować aplikację o kolejne klasy, wówczas wskazane będzie wrócić do wcześniejszych metod i je modyfikować poprzez dodanie kolejnego ifa/case. </br>
 "Kod powinien być napisany tak, aby dodawanie nowych elementów nie wymagało modyfikowania już zaimplementowanych i zamkniętych." </br></br>
 **Przykłady:**
 </br>
