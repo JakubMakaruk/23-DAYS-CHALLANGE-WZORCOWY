@@ -4,6 +4,7 @@ Jest to wzorzec kreacyjny. Celem wzorca jest udostępnienie interfejsu w celu tw
 **Przykłady:**
 </br>
 **1.** Wytwarzanie zestawu komputerowego. Gdy chcemy utworzyć zestaw komputerowy dla użytkownika składający się z Monitora, Myszki, Klawiatury. "Te elementy to interfejsy, które będą realizowane przez konkretne klasy np. MonitorASUS, MonitorBENQ, MyszkaRazer, KlawiaturaHyperX."
+**2.** System salonów samochodowych. Tworzymy dla klienta zestaw(rodzinę produktów) składający się z Samochodu i Kluczyków do tego samochodu. Przykład widoczny niżej w diagramie oraz kodzie.
 
 ### Przykładowy diagram:
 <p align="center">
