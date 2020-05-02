@@ -20,7 +20,7 @@ Jest to wzorzec kreacyjny. Celem wzorca jest udostępnienie interfejsu w celu tw
  <img src="https://github.com/JakubMakaruk/23-DAYS-CHALLANGE-WZORCOWY/blob/master/Fabryka%20abstrakcyjna/zdj/main2.png" alt="zdj">
 </p>
 
-### Struktura plików(użyty interfejs):
+### Struktura plików(użyte interfejsy):
 <p align="left">
  <img src="https://github.com/JakubMakaruk/23-DAYS-CHALLANGE-WZORCOWY/blob/master/Fabryka%20abstrakcyjna/zdj/main3.png" alt="zdj">
 </p>
