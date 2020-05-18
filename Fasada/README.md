@@ -4,7 +4,7 @@ Jest to wzorzec strukturalny. Celem tego wzorca jest uproszczenie korzystania z 
 **Przykłady:**
 </br>
 **1.** Klient chce wypłacić pieniądze z bankomatu. W tym celu wystarczy, że użyje tylko jednej metody "wypłaćPieniądze" zamiast wielu innych typu - uruchomienia silnika, kasety na banknoty. Co więcej klient używając poszczególnych metod ingerowałby w działanie bankomatu. Mógłby wywoływać metody, które nie powinny być dla niego dostępne, bo mógłby na przykład wypłacić więcej pieniędzy niż by chciał. </br>
-**2.** Użytkownik chce włączyć komputer. W tym celu wystarczy, że użyje tylko jednej metody "uruchom", zamiast grzebać w komputerze i uruchamiać poszczególne komponenty osobno - plyta glowna, procesor, karta graficzna itd.
+**2.** Użytkownik chce włączyć komputer. W tym celu wystarczy, że użyje jednej metody "uruchom", zamiast grzebać w komputerze i uruchamiać poszczególne komponenty osobno - plyta glowna, procesor, karta graficzna itd.
 Fasada służy do ukrycia szczegółów(złożoności) pewnego systemu przed klientem.
 
 ### Przykładowy diagram:
