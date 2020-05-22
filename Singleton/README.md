@@ -1,6 +1,6 @@
 # Singleton
 
-Jest to wzorzec kreacyjny. Celem tego wzorca jest uniemożliwienie tworzenia wielu instancji jednej klasy oraz zapewnienie globalnego dostępu do stworzonego tylko raz obiektu. Używa się tego wzorca gdy chcemy wyróżnić jedną z klas w systemie jako unikatową, a dodatkowo możemy zarządzać jednym spójnym obiektem dostępnym z wielu miejsc aplikacji. Wszelkie operacje wykonywane z tej klasy odnoszą się do jedynej istniejącej w systemie, tej samej instancji. </br>
+Jest to wzorzec kreacyjny. Celem tego wzorca jest uniemożliwienie tworzenia wielu instancji jednej klasy oraz zapewnienie globalnego dostępu do stworzonego tylko raz obiektu. Używa się tego wzorca gdy chcemy wyróżnić jedną z klas w systemie jako unikatową, a dodatkowo możemy zarządzać jednym spójnym obiektem dostępnym z wielu miejsc aplikacji. Każde operacje wykonywane z tej klasy odnoszą się do jedynej istniejącej w systemie, tej samej instancji. </br>
 Jeśli chodzi o implementację klasy Singleton to tworzy się statyczną metodę, która sprawdza czy obiekt istnieje i jeśli istnieje to jest zwracany przez referencję, a w przeciwnym przypadku zostaje utworzony. Instancję przechowuje się w prywatnym polu do którego dostęp ma tylko ta metoda, aby uniemożliwić tworzenie dodatkowych instancji. Konstruktor klasy deklarowany jest jako prywatny.
 
 **Przykłady:**
